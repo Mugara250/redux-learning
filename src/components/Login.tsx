@@ -4,7 +4,7 @@ import { login, logout } from "../features/user";
 const Login = () => {
   const dispatch = useDispatch();
   return (
-    <div className="mt-10 flex flex-col gap-y-4">
+    <div className="flex flex-col gap-y-4">
       <button
         className="bg-amber-200 font-bold px-2 py-1 rounded-lg cursor-pointer hover:bg-amber-300"
         onClick={() =>
