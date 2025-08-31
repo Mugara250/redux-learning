@@ -13,6 +13,7 @@ const store = configureStore({
     theme: themeReducer
   }
 });
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Provider store={store}>
