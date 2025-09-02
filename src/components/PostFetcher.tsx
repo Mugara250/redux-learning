@@ -74,8 +74,8 @@ const PostFetcher = () => {
               Posts ({posts.length})
             </h2>
             {posts.map(({ userId, id, title, body }) => (
-              <div className="mt-8 border-[1px] border-gray-400 text-gray-500 py-8 px-5 flex flex-col gap-y-5 rounded-lg">
-                <h3 className="text-base text-black font-bold">{title}</h3>
+              <div className="mt-8 border-[1px] border-gray-400 text-base text-gray-500 py-8 px-5 flex flex-col gap-y-5 rounded-lg">
+                <h3 className="text-lg text-black font-bold">{title}</h3>
                 <div>
                   <span>Post ID: {id}</span> |<span>User ID: {userId}</span>
                 </div>
