@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 // import Login from "./components/Login";
 // import ChangeTheme from "./components/ChangeTheme";
 import { type RootState } from "./main";
-import PostFetcher from "./components/PostFetcher";
+// import PostFetcher from "./components/PostFetcher";
 // import Theme from "./components/Theme";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <ChangeTheme /> */}
       {/* <UseReducer />*/}
       {/* <Theme /> */}
-      <PostFetcher />
+      {/* <PostFetcher /> */}
     </div>
   );
 }
